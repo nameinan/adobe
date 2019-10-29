@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute">
+    <mx:Script>
+    	<![CDATA[
+    		import mx.controls.Alert;
+    		import adapter.com.lcproxy;
+  
+    		public function test_code():void{
+    			
+    			var proxy:lcproxy = new lcproxy();
+    			
+    			proxy.test_native();
+    		 
+    	}
+    	
+    		
+    		
+    	]]>
+    </mx:Script>
+
+	<mx:Button x="69" y="86" label="Click" click="test_code()"/>
+	
+</mx:WindowedApplication>

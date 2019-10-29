@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute">
+
+
+<mx:Script>
+	<![CDATA[
+		
+		import mx.controls.Alert;
+		
+		
+		
+		private function clickme():void{
+			Alert.show("you click me");
+			
+			
+			
+			var lc = new air.LocalConnection(); 
+var clientObject = new Object(); 
+clientObject.doMethod1 = function() { 
+    air.trace("doMethod1 called."); 
+} 
+clientObject.doMethod2 = function(param1) { 
+    air.trace("doMethod2 called with one parameter: " + param1); 
+    air.trace("The square of the parameter is: " + param1 * param1); 
+} 
+lc.client = clientObject;
+		}
+		
+	]]>
+</mx:Script>
+	<mx:Button x="93" y="148" label="Button" click="clickme()"/>
+	
+</mx:WindowedApplication>

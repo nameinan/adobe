@@ -1,0 +1,33 @@
+ackage adapter.com
+{
+	import mx.controls.Alert;
+	public class lcproxy
+	{
+		public function lcproxy()
+		{
+		}
+		
+		
+		public function test_call():String{
+			trace("rain is calling your");;
+			return "rain"
+		}
+			
+		public function test_native():String{
+			  var nativeProcessStartupInfo:NativeProcessStartupInfo = new NativeProcessStartupInfo();
+            var file:File = File.applicationDirectory.resolvePath("test.py");
+            nativeProcessStartupInfo.executable = file;
+
+            var processArgs:Vector.<String> = new Vector.<String>();
+            processArgs[0] = "foo";
+            nativeProcessStartupInfo.arguments = processArgs;
+
+            process = new NativeProcess();
+            process.start(nativeProcessStartupInfo);
+
+		}
+		
+		
+		
+	}
+}

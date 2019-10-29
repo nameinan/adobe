@@ -1,0 +1,14 @@
+package adapter.com
+{
+	import mx.controls.Alert;
+	public class lcproxy
+	{
+		public function lcproxy()
+		{
+		}
+		
+		
+		
+
+	}
+}

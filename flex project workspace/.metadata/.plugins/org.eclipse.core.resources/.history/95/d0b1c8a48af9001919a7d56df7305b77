@@ -1,0 +1,51 @@
+package adapter.com
+{
+	import flash.display.Sprite; 
+    import flash.events.InvokeEvent; 
+    import flash.desktop.NativeApplication; 
+    import mx.controls.Alert; 
+         
+	public class lclistener
+	{
+		public function lclistener()
+		{
+		}
+		
+		private function init():void{
+			NativeApplication.nativeApplication.addEventListener(InvokeEvent.INVOKE, onInvoke);
+		}
+		
+		public function onInvoke(invokeEvent:InvokeEvent):void 
+        { 
+            var now:String = new Date().toTimeString(); 
+            logEvent("Invoke event received: " + now); 
+                     
+            if (invokeEvent.currentDirectory != null) 
+            { 
+                logEvent("Current directory=" + invokeEvent.currentDirectory.nativePath); 
+            }  
+            else  
+            { 
+                logEvent("--no directory information available--"); 
+            } 
+                     
+            if (invokeEvent.arguments.length > 0) 
+            { 
+                logEvent("Arguments: " + invokeEvent.arguments.toString()); 
+            }  
+            else  
+            { 
+                logEvent("--no arguments--"); 
+            } 
+        } 
+                 
+        public function logEvent(entry:String):void  
+        { 
+           trace(entry); 
+           Alert.show(entry);
+           
+           
+        } 
+
+	}
+}

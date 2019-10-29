@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute">
+
+
+<mx:Script>
+	<![CDATA[
+		
+		import mx.controls.Alert;
+		import adapter.com.lcproxy;
+       /// import air.net;
+		
+		
+		
+		private function clickme():void{
+			
+			var proxy:lcproxy = new loproxy();
+			Alert.show("you click me");
+     	}
+		
+	]]>
+</mx:Script>
+	<mx:Button x="93" y="148" label="Button" click="clickme()"/>
+	
+</mx:WindowedApplication>

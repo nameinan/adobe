@@ -1,0 +1,11 @@
+package com.nanda
+{
+	public class learnscript
+	{
+		public function learnscript():void
+		{
+		
+		}
+
+	}
+}

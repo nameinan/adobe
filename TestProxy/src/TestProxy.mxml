@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute">
+
+<mx:Script>
+	<![CDATA[
+	    import mx.controls.Alert;	
+	   // import adapter.com.lcproxy;
+		private function call_me():void{
+			  /* var proxy:lcproxy = new lcproxy();
+			  var name=proxy.test_call();;
+			  Alert.show(name); */
+	          Alert.show("nanda");
+		}
+	]]>
+</mx:Script>
+	<mx:Button x="70" y="29" label="Button" click="call_me()"/>
+	
+</mx:Application>

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="0" y="0">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="140" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="238" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="230" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page focus="true" label="Workspace - Flex Development">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="lcproxy.as" partName="lcproxy.as" path="C:/programming/flex/LcProxy/src/adapter/com/lcproxy.as" title="lcproxy.as" tooltip="LcProxy/src/adapter/com/lcproxy.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LcProxy/src/adapter/com/lcproxy.as"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="0"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="lclistener.as" partName="lclistener.as" path="C:/programming/flex/LcProxy/src/adapter/com/lclistener.as" title="lclistener.as" tooltip="LcProxy/src/adapter/com/lclistener.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LcProxy/src/adapter/com/lclistener.as"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="959"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="CallBackApp.mxml" partName="CallBackApp.mxml" path="C:/programming/flex/LcProxy/src/CallBackApp.mxml" title="CallBackApp.mxml" tooltip="LcProxy/src/CallBackApp.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LcProxy/src/CallBackApp.mxml"/>
+</editor>
+<editor activePart="true" focus="true" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="callback.as" partName="callback.as" path="C:/programming/flex/LcProxy/src/adapter/com/callback.as" title="callback.as" tooltip="LcProxy/src/adapter/com/callback.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LcProxy/src/adapter/com/callback.as"/>
+<editorState selectionHPixel="0" selectionLength="0" selectionOffset="89"/>
+</editor>
+</editors>
+<views>
+<view id="com.adobe.flexbuilder.navigator" partName="Flex Navigator ">
+<viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
+<filters>
+<filter element=".flexProperties" isEnabled="true"/>
+<filter element=".actionScriptProperties" isEnabled="true"/>
+<filter element=".project" isEnabled="true"/>
+<filter element=".settings" isEnabled="true"/>
+<filter element=".flexLibProperties" isEnabled="true"/>
+<filter element=".DS_Store" isEnabled="true"/>
+<filter element=".*" isEnabled="false"/>
+</filters>
+<expanded>
+<element path="/AirApp"/>
+<element path="/LcProxy"/>
+<element path="/LcProxy/bin"/>
+<element path="/LcProxy/src"/>
+<element path="/LcProxy/src/adapter"/>
+<element path="/LcProxy/src/adapter/com"/>
+</expanded>
+<selection>
+<element path="/LcProxy/src/adapter/com/callback.as"/>
+</selection>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState columnWidth0="472" columnWidth1="309" columnWidth2="39" columnWidth3="313" columnWidth4="0" horizontalPosition="0" verticalPosition="0">
+<columnOrder columnOrderIndex="0"/>
+<columnOrder columnOrderIndex="2"/>
+<columnOrder columnOrderIndex="3"/>
+<columnOrder columnOrderIndex="4"/>
+<columnOrder columnOrderIndex="1"/>
+</viewState>
+</view>
+</views>
+<perspectives activePart="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" activePerspective="com.adobe.flexbuilder.editors.mxml.ui.perspectives.development">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.adobe.flexbuilder.editors.mxml.ui.perspectives.DevelopmentPerspectiveFactory" id="com.adobe.flexbuilder.editors.mxml.ui.perspectives.development" label="Flex Development"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.dbwizard.actionSet"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.editors.common.modeswitch"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.standalone.navigate"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.upgrade"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.ui.OpenStartPage"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.ws.actionSet"/>
+<alwaysOnActionSet id="com.interaktonline.jseclipse.actionSet1"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.WorkingSetActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.update.ui.softwareUpdates"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.standalone.launch"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.zzz.editors.common.ui.project.publish"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.editors.actionscript.ui.NavigationActions"/>
+<show_view_action id="com.adobe.flexbuilder.editors.mxml.components.ComponentsView"/>
+<show_view_action id="com.adobe.flexbuilder.editors.mxml.inspector.view.PropertiesView"/>
+<show_view_action id="com.adobe.flexbuilder.editors.mxml.states.StatesView"/>
+<show_view_action id="com.adobe.flexbuilder.navigator"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<new_wizard_action id="com.adobe.flexbuilder.editors.mxml.ui.wizards.NewMXMLApplication"/>
+<new_wizard_action id="com.adobe.flexbuilder.editors.mxml.ui.wizards.NewMXMLComponent"/>
+<new_wizard_action id="com.adobe.flexbuilder.editors.mxml.ui.wizards.NewMXMLModule"/>
+<new_wizard_action id="com.adobe.flexbuilder.editors.actionscript.wizards.NewActionScriptFile.flex"/>
+<new_wizard_action id="com.adobe.flexbuilder.editors.actionscript.classWizard.flex"/>
+<new_wizard_action id="com.adobe.flexbuilder.editors.actionscript.interfaceWizard.flex"/>
+<new_wizard_action id="com.adobe.flexbuilder.editors.css.wizards.NewCSSFile"/>
+<new_wizard_action id="com.adobe.flexbuilder.editors.common.ui.project.wizards.newproject"/>
+<new_wizard_action id="com.adobe.flexbuilder.editors.common.ui.project.wizards.NewActionScriptProjectWizard"/>
+<new_wizard_action id="com.adobe.flexbuilder.editors.common.ui.project.wizards.FlexLibraryProjectWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="com.adobe.flexbuilder.editors.mxml.ui.perspectives.development"/>
+<perspective_action id="com.adobe.flexbuilder.debug.ui.perspectives.debug"/>
+<perspective_action id="com.adobe.flash.profiler.ui.ProfilingPerspective"/>
+<view id="com.adobe.flexbuilder.navigator"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1335207">
+<folder activePageID="com.adobe.flexbuilder.navigator" appearance="2" expanded="2">
+<page content="com.adobe.flexbuilder.navigator" label="Flex Navigator "/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.749497" ratioLeft="745" ratioRight="249" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1335207">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.23991619" ratioLeft="458" ratioRight="1451" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1335207"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@133a3bf" ratio="0.80210775" ratioLeft="1370" ratioRight="338" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="com.adobe.flexbuilder.editors.mxml.states.StatesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@13249b" ratio="0.24925816" ratioLeft="168" ratioRight="506" relationship="4" relative="org.eclipse.ui.internal.ViewStack@133a3bf">
+<folder appearance="2" expanded="2">
+<page content="com.adobe.flexbuilder.editors.mxml.inspector.view.PropertiesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@17c50b9" ratio="0.6278539" ratioLeft="550" ratioRight="326" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="outlineHolder" ratio="0.5605023" ratioLeft="491" ratioRight="385" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1335207">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="com.adobe.flexbuilder.editors.mxml.components.ComponentsView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.internal.presentations.r33.WorkbenchPresentationFactory_33">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/LcProxy/src/adapter/com/lcproxy.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/TestFLxProxy/bin-debug/test-app.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/LcProxy/bin/LcProxy.swc"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/testAir/src/testAir.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/TestLcAir/src/TestLcAir.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/TestLcAir/bin-debug/TestLcAir-app.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/TestFLxProxy/bin-debug/test-app.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/LcProxy/src/adapter/com/lcproxy.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/AirApp/src/AirApp.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/AirApp/src/AirApp-app.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/AirApp/bin-debug/AirApp-app.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/TestFLxProxy/src/TestFLxProxy.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/TestFLxProxy/bin-debug/test-app.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/LcProxy/src/adapter/com/lcproxy.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/LcProxy/src/adapter/com/lclistener.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/TestFLxProxy/src/TestFLxProxy.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/AirApp/src/AirApp.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLCodeEditor" path="/AirApp/src/AirApp.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/AirApp/src/AirApp-app.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/LcProxy/src/adapter/com/callback.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/LcProxy/src/callback.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/LcProxy/bin/LcProxy/catalog.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/LcProxy/src/adapter/com/callback.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/LcProxy/src/adapter/com/lcproxy.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/LcProxy/src/adapter/com/lclistener.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/LcProxy/src/CallBackApp.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/LcProxy/src/adapter/com/callback.as"/>
+</editors>
+<item historyLabel="test-app.xml" index="1">
+<position/>
+</item>
+<item historyLabel="LcProxy.swc" index="2">
+<position/>
+</item>
+<item historyLabel="lcproxy.as" index="0">
+<position info="not_deleted" x="572" y="11"/>
+</item>
+<item historyLabel="LcProxy.swc" index="2">
+<position/>
+</item>
+<item historyLabel="testAir.mxml" index="3">
+<position/>
+</item>
+<item historyLabel="TestLcAir.mxml" index="4">
+<position/>
+</item>
+<item historyLabel="testAir.mxml" index="3">
+<position info="not_deleted" x="0" y="1748"/>
+</item>
+<item historyLabel="TestLcAir.mxml" index="4">
+<position/>
+</item>
+<item historyLabel="TestLcAir-app.xml" index="5">
+<position/>
+</item>
+<item historyLabel="test-app.xml" index="6">
+<position info="not_deleted" x="412" y="0"/>
+</item>
+<item historyLabel="lcproxy.as" index="7">
+<position info="not_deleted" x="925" y="0"/>
+</item>
+<item historyLabel="AirApp.mxml" index="8">
+<position/>
+</item>
+<item historyLabel="TestLcAir.mxml" index="4">
+<position info="not_deleted" x="0" y="525"/>
+</item>
+<item historyLabel="AirApp.mxml" index="8">
+<position/>
+</item>
+<item historyLabel="lcproxy.as" index="7">
+<position info="not_deleted" x="886" y="0"/>
+</item>
+<item historyLabel="AirApp-app.xml" index="9">
+<position/>
+</item>
+<item historyLabel="AirApp-app.xml" index="10">
+<position/>
+</item>
+<item historyLabel="TestFLxProxy.mxml" index="11">
+<position/>
+</item>
+<item historyLabel="test-app.xml" index="12">
+<position/>
+</item>
+<item historyLabel="lcproxy.as" index="13">
+<position/>
+</item>
+<item historyLabel="lclistener.as" index="14">
+<position/>
+</item>
+<item historyLabel="TestFLxProxy.mxml" index="15">
+<position/>
+</item>
+<item historyLabel="lclistener.as" index="14">
+<position/>
+</item>
+<item historyLabel="TestFLxProxy.mxml" index="15">
+<position info="not_deleted" x="317" y="0"/>
+</item>
+<item historyLabel="AirApp.mxml" index="16">
+<position info="not_deleted" x="230" y="0"/>
+</item>
+<item historyLabel="AirApp.mxml" index="17">
+<position info="not_deleted" x="1247" y="29"/>
+</item>
+<item historyLabel="AirApp.mxml" index="17">
+<position/>
+</item>
+<item historyLabel="AirApp.mxml" index="17">
+<position info="not_deleted" x="1230" y="0"/>
+</item>
+<item historyLabel="AirApp-app.xml" index="18">
+<position/>
+</item>
+<item historyLabel="callback.mxml" index="19">
+<position info="not_deleted" x="121" y="0"/>
+</item>
+<item historyLabel="callback.mxml" index="20">
+<position info="not_deleted" x="119" y="0"/>
+</item>
+<item historyLabel="AirApp.mxml" index="16">
+<position info="not_deleted" x="126" y="1282"/>
+</item>
+<item historyLabel="callback.mxml" index="20">
+<position info="not_deleted" x="211" y="0"/>
+</item>
+<item historyLabel="catalog.xml" index="21">
+<position info="not_deleted" x="374" y="0"/>
+</item>
+<item historyLabel="AirApp.mxml" index="16">
+<position info="not_deleted" x="225" y="135"/>
+</item>
+<item historyLabel="catalog.xml" index="21">
+<position info="not_deleted" x="374" y="0"/>
+</item>
+<item historyLabel="callback.mxml" index="20">
+<position info="not_deleted" x="211" y="0"/>
+</item>
+<item historyLabel="callback.as" index="22">
+<position/>
+</item>
+<item historyLabel="catalog.xml" index="21">
+<position info="not_deleted" x="374" y="0"/>
+</item>
+<item historyLabel="lclistener.as" index="14">
+<position/>
+</item>
+<item historyLabel="lcproxy.as" index="13">
+<position info="not_deleted" x="996" y="0"/>
+</item>
+<item historyLabel="callback.as" index="22">
+<position/>
+</item>
+<item historyLabel="callback.mxml" index="20">
+<position/>
+</item>
+<item historyLabel="callback.as" index="22">
+<position/>
+</item>
+<item historyLabel="lcproxy.as" index="23">
+<position/>
+</item>
+<item historyLabel="lclistener.as" index="24">
+<position/>
+</item>
+<item historyLabel="CallBackApp.mxml" index="25">
+<position info="not_deleted" x="1409" y="0"/>
+</item>
+<item historyLabel="lclistener.as" index="24">
+<position info="not_deleted" x="959" y="0"/>
+</item>
+<item historyLabel="CallBackApp.mxml" index="25">
+<position info="not_deleted" x="337" y="0"/>
+</item>
+<item active="true" historyLabel="callback.as" index="26">
+<position/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="callback.as" tooltip="LcProxy/src/adapter/com/callback.as">
+<persistable path="/LcProxy/src/adapter/com/callback.as"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="CallBackApp.mxml" tooltip="LcProxy/src/CallBackApp.mxml">
+<persistable path="/LcProxy/src/CallBackApp.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="lclistener.as" tooltip="LcProxy/src/adapter/com/lclistener.as">
+<persistable path="/LcProxy/src/adapter/com/lclistener.as"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="lcproxy.as" tooltip="LcProxy/src/adapter/com/lcproxy.as">
+<persistable path="/LcProxy/src/adapter/com/lcproxy.as"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="catalog.xml" tooltip="LcProxy/bin/LcProxy/catalog.xml">
+<persistable path="/LcProxy/bin/LcProxy/catalog.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="AirApp-app.xml" tooltip="AirApp/src/AirApp-app.xml">
+<persistable path="/AirApp/src/AirApp-app.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="AirApp.mxml" tooltip="AirApp/src/AirApp.mxml">
+<persistable path="/AirApp/src/AirApp.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="test-app.xml" tooltip="TestFLxProxy/bin-debug/test-app.xml">
+<persistable path="/TestFLxProxy/bin-debug/test-app.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="TestFLxProxy.mxml" tooltip="TestFLxProxy/src/TestFLxProxy.mxml">
+<persistable path="/TestFLxProxy/src/TestFLxProxy.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="AirApp-app.xml" tooltip="AirApp/bin-debug/AirApp-app.xml">
+<persistable path="/AirApp/bin-debug/AirApp-app.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="TestLcAir.mxml" tooltip="TestLcAir/src/TestLcAir.mxml">
+<persistable path="/TestLcAir/src/TestLcAir.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="LcProxy.swc" tooltip="LcProxy/bin/LcProxy.swc">
+<persistable path="/LcProxy/bin/LcProxy.swc"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="learnscript.as" tooltip="Learning/src/com/nanda/learnscript.as">
+<persistable path="/Learning/src/com/nanda/learnscript.as"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="FLcProcy.swf" tooltip="FLcProcy/bin-debug/FLcProcy.swf">
+<persistable path="/FLcProcy/bin-debug/FLcProcy.swf"/>
+</file>
+</mruList>
+</workbench>

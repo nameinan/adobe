@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+	initialize="init()"	>
+    <mx:Script>
+    	<![CDATA[
+    	
+    	import mx.controls.Alert;
+    		 
+    	private function init():void{
+			NativeApplication.nativeApplication.addEventListener(InvokeEvent.INVOKE, onInvoke);
+		}
+		
+		public function onInvoke(invokeEvent:InvokeEvent):void 
+        { 
+            var now:String = new Date().toTimeString(); 
+            logEvent("Invoke event received: " + now); 
+                     
+            if (invokeEvent.currentDirectory != null) 
+            { 
+                logEvent("Current directory=" + invokeEvent.currentDirectory.nativePath); 
+            }  
+            else  
+            { 
+                logEvent("--no directory information available--"); 
+            } 
+                     
+            if (invokeEvent.arguments.length > 0) 
+            { 
+                logEvent("Arguments: " + invokeEvent.arguments.toString()); 
+            }  
+            else  
+            { 
+                logEvent("--no arguments--"); 
+            } 
+        } 
+                 
+        public function logEvent(entry:String):void  
+        { 
+           trace(entry); 
+           Alert.show(entry);
+           
+           
+        } 
+    	
+    		
+    		
+    	]]>
+    </mx:Script>
+
+
+</mx:Application>

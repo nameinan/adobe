@@ -1,0 +1,18 @@
+package adapter.com
+{
+	import mx.controls.Alert;
+	public class lcproxy
+	{
+		public function lcproxy()
+		{
+		}
+		
+		
+		public function test_call():String{
+			trace("rain is calling your");;
+			return "rain"
+		}
+		
+
+	}
+}

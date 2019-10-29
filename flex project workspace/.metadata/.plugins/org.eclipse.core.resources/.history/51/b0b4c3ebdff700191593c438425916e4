@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute">
+    <mx:Script>
+    	<![CDATA[
+    		import mx.controls.Alert;
+    		
+  
+    		public function test_code():void{
+    		 
+    	}
+    	
+    	
+    	private function listenTimerStart(event:Event):void{
+    		
+    		trace("listenTimerStart");
+    	}
+    	
+    	
+    	private function listenTimerComplete(event:Event):void{
+    		
+    		trace("listenTimerComplete");
+    	}
+    	
+    	private function handleEventChange(event:Event):void{
+    		trace(event.target.quantity);
+    	}
+    	//Event hangler
+     	private function listenEvent(event:Event):void{
+    		trace("Listen event");
+    	}
+    	 
+    		
+    		
+    	]]>
+    </mx:Script>
+
+	<mx:Button x="69" y="86" label="Click" click="test_code()"/>
+	
+</mx:WindowedApplication>

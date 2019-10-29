@@ -1,0 +1,17 @@
+package adapter.com
+{
+	import mx.controls.Alert;
+	public class lcproxy
+	{
+		public function lcproxy()
+		{
+		}
+		
+		
+		pucic function test_call():void{
+			trace("test_call is called");
+		}
+		
+
+	}
+}

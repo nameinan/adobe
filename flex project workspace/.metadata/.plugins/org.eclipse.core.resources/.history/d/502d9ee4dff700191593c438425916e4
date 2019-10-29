@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute">
+    <mx:Script>
+    	<![CDATA[
+    		import mx.controls.Alert;
+    		import com.model.Employee;
+    		import com.model.Item;
+    		
+   
+    	
+  
+    		public function test_code():void{
+    			
+    			
+    		var emp1:Employee = new Employee("Nandakumar","nandailogic@gmail.com");
+    		trace("Nandakumar");
+    		Alert.show(emp1.email) 
+    		
+    	    var item:Item = new Item("Action script",100);
+    	    
+    	    
+    				
+    				
+    				
+    		//add event
+    	    //addEventListener(Event.ENTER_FRAME,listenEvent);
+    	    
+    	    
+    	    
+    	    //add event listner
+    	    item.addEventListener(Event.CHANGE,handleEventChange)
+    	    item.quantity=200;
+    	 
+    	    
+    	    
+    	    //timmer
+    	     var timer:Timer = new Timer(1000,7);
+    	     timer.addEventListener(TimerEvent.TIMER,listenTimerStart);	
+    	     timer.addEventListener(TimerEvent.TIMER_COMPLETE,listenTimerComplete);
+    	     timer.start();
+    	 
+    	}
+    	
+    	
+    	private function listenTimerStart(event:Event):void{
+    		
+    		trace("listenTimerStart");
+    	}
+    	
+    	
+    	private function listenTimerComplete(event:Event):void{
+    		
+    		trace("listenTimerComplete");
+    	}
+    	
+    	private function handleEventChange(event:Event):void{
+    		trace(event.target.quantity);
+    	}
+    	//Event hangler
+     	private function listenEvent(event:Event):void{
+    		trace("Listen event");
+    	}
+    	 
+    		
+    		
+    	]]>
+    </mx:Script>
+
+	<mx:Button x="69" y="86" label="Click" click="test_code()"/>
+	
+</mx:WindowedApplication>

@@ -1,0 +1,10 @@
+package adapter.com
+{
+	public class lcproxy
+	{
+		public function lcproxy()
+		{
+		}
+
+	}
+}

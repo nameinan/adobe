@@ -1,0 +1,10 @@
+package adapter.com
+{
+	public class lclistener
+	{
+		public function lclistener()
+		{
+		}
+
+	}
+}

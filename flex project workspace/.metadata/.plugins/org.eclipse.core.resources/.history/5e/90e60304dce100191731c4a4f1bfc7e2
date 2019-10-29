@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute">
+    <mx:Script>
+    	<![CDATA[
+    		import mx.controls.Alert;
+    		import com.model.Employee;
+   
+    	
+  
+    		public function test_code():void{
+    			
+    			
+    		var emp1:Employee = new Employee("Nandakumar","nandailogic@gmail.com");
+    		Alert.show(emp1.email) 
+    				
+    		
+    		
+    	 
+    	}
+    	 
+    		
+    		
+    	]]>
+    </mx:Script>
+
+	<mx:Button x="69" y="86" label="Click" click="test_code()"/>
+	
+</mx:WindowedApplication>

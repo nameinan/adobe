@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="adapter/com/lcproxy" mod="1571468930601" signatureChecksum="2295341457" >
+        <def id="adapter.com:lcproxy" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="trace" type="e" /> 
+      </script>
+      <script name="_0ab811567bc5f8c640e45efd1af0df1d098fd30f33f649633ebc3059752d0ebd_flash_display_Sprite" mod="1571684109334" signatureChecksum="3837228176" >
+        <def id="_0ab811567bc5f8c640e45efd1af0df1d098fd30f33f649633ebc3059752d0ebd_flash_display_Sprite" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.system:Security" type="e" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="489f32c050e1d500444adee4ab36f5215492d0911ce6d3306056560e15dad37f"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

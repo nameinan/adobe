@@ -1,0 +1,15 @@
+package adapter.com
+{
+	import flash.display.Sprite; 
+    import flash.events.InvokeEvent; 
+    import flash.desktop.NativeApplication; 
+    import flash.text.TextField; 
+         
+	public class lclistener
+	{
+		public function lclistener()
+		{
+		}
+
+	}
+}
